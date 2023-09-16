@@ -1,0 +1,169 @@
+.one{
+    background-color: #9acd32;
+    padding: 48px;
+    margin: 0px 0px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.parent1{
+    max-width: 1170px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.parent1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 63px;
+    font-weight: 400;
+    color: #d0ff71;
+    margin: 20px 0px 10px;
+}
+
+.parent1 p {
+    margin: 0px 0px 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    color: #d0ff71;
+}
+
+.engage {
+    width: 106px;
+    height:34px;
+    background-color: #337AB7;
+    border-radius: 3px;
+    border: none;
+    color:white;
+}
+
+.engage:hover{
+    background-color: #133f66;
+}
+
+
+.two{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.parent2{
+    max-width: 1170px;
+    text-align: center;
+}
+
+h2{
+margin: 20px 0px 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+font-size: 2em;
+}
+
+h2 span {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+color: #777;
+
+}
+
+.parent2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+
+}
+
+.news{
+   width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news div{
+    width: 360px;
+    height: 486px;
+    margin: 0px 0px 25px;
+    text-align: center;
+}
+
+.news img{
+    width: 360px;
+    height: 300px;
+}
+
+h3{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+font-size: 24px;
+color: #26a8db;
+margin: 20px 0px 10px;
+}
+
+.news p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #959595;
+}
+
+
+.three{
+    background-color: goldenrod;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.krug{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.krug div{
+    width: 360px;
+    height: 330px;
+    margin: 0px 0px 25px;
+    padding: 30px;
+    text-align: center;
+}
+
+.krug div h3 {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+font-size: 24px;
+color: #000000;
+margin: 20px 0px 10px;
+}
+
+.krug div img {
+    border-radius: 50%;
+    }
+
+.krug p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin: 0px 0px 10px;
+    }
+
+.krug div button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffffff;
+    }
+
+.krug div button:hover{
+    background-color: #ebebeb;
+}

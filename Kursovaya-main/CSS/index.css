@@ -1,0 +1,30 @@
+@import url(/CSS/reset.css);
+@import url(/CSS/header.css);
+@import url(/CSS/main.css);
+@import url(/CSS/footer.css);
+
+body{
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 51px 1fr 120px;
+}
+
+header{
+    grid-row: 1/2;
+}
+
+main{
+ grid-row: 2/3;
+}
+
+footer{
+    grid-row: 3/3;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+

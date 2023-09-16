@@ -1,0 +1,117 @@
+
+
+header {
+    background-color: #222;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.parent{
+    width: 1170px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(../img/7804542.png);
+    background-size: contain;
+    background-position: center;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+
+}
+
+.menu>ul li{
+    display: inline-block;
+    color: #9d9d9d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 15px;
+    
+}
+
+.visible{
+    position: relative;
+}
+
+#about{
+    background-color: #000000;
+    color:white;
+}
+
+#product{
+    background-color: #000000;
+    color:white;
+}
+
+#home{
+    background-color: #000000;
+    color:white;
+}
+
+.menu li:hover{
+    background-color: #000000;
+    color:white;
+}
+
+.formgroup:nth-last-child(1){
+    margin-left:auto;   
+} 
+
+input{
+    width: 196px;
+    height: 34px;
+    margin-left: 6px;
+    border-radius: 3px;
+    border: none;
+}
+
+input:focus{
+    appearance: none;
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+.search{
+    padding: 0px 15px;
+    background-color: #ffffff;
+    height: 34px;
+    border-radius: 3px;
+    border: none;
+}
+
+.search:hover{
+    background-color: #ebebeb;
+}
+
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #ebebeb;  
+    top: calc(100% + 2px);
+    left: 0;
+    width: 200%;
+}
+
+.visible:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .dropdown nav li{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+    
+}
+
+
+.dropdown li:hover {
+    background-color: rgb(36, 126, 28);
+    color:rgb(255, 255, 255);
+}
